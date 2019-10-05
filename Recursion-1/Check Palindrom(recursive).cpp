@@ -32,7 +32,6 @@ bool chp(char input[],int start,int end){
     if(end<start)
         return true;
     if(input[start]!=input[end])
-        return false;
     
     bool ans=chp(input,start+1,end-1);
     return ans;
