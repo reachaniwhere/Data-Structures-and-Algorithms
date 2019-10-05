@@ -40,7 +40,7 @@ using namespace std;
 template <typename T>
 class TreeNode {
 	TreeNode<T>** children;
-	int childCount;
+	float childCount;
     	int maxChildCount;
 	public:
 		T data;
