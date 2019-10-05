@@ -39,7 +39,7 @@ void replacePi(char input[]) {
         input[1]='.';
         
         int size=strlen(input);
-        for(int i=size+2;i>1;i--){
+        for(int i+1=size+2;i>1;i--){
             input[i]=input[i-2];
         }
         input[2]='1';
