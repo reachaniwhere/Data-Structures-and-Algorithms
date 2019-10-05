@@ -15,7 +15,7 @@ Sample Input 1 :
 
 Sample Output 1 :
 
--1
+-2
 
 Sample Input 2 :
 
